@@ -1,0 +1,93 @@
+/*공통 class*/
+body {font-family: 'Noto Sans KR', sans-serif;}
+.ks4 {font-family: 'Noto Sans KR', sans-serif;}
+.d_n {display: none;}
+.mtp-100 {margin-top: 100px;}
+.mtp-60 {margin-top: 60px;}
+.p_20 {padding: 20px 0;}
+.f20 {font-size: 20px;}
+.Kaisei {font-family: 'Kaisei Tokumin', serif;}
+
+/* 네비게이션 */
+.fixed-top {top: 0;}
+.ety-main {margin-bottom: 0px !important;}
+.carousel-item {height: 800px;}
+.dropdown-toggle::after {display: none;}
+#navbarDropdownBlog {color: white;}
+
+/* 네비게이션 효과*/
+.dropdown-menu {width: 100%; text-align: center; background-color: transparent; border: 1px solid transparent;}
+.dropdown-item {color:#fff;}
+.dropdown-item:hover {background: transparent; color: #ff8300;}
+
+/* .pack {padding: 50px 0 10px 0; text-align: center; height:95px; font-size:25px;} */
+
+
+/* 네비 스크롤시 효과 */
+nav.sticky {position: fixed; padding: 0; background: rgba(173,158,135,.97);}
+
+.carousel_pine {
+  position: absolute;
+  right: 15%;
+  z-index: 10;
+  padding-bottom: 20px;
+  color: #fff;
+  top: 320px;
+}
+
+
+/* 추석이벤트쿠폰 */
+.coupon {
+  position: absolute;
+  top: 320px;
+  bottom: 0;
+  left: 300px;
+}
+.cou_1 {width: 80%}
+
+
+/* 예약프로모션 */
+.box > .icon > p {
+  padding: 10px 0 10px 0;
+  text-align: center;
+  font-weight: 400
+  color: #90774e;
+  font-size: 1.1rem;
+}
+
+.info-pink:hover {opacity: 0.5;}
+.you_a {color: #fff; font-size: 25px; font-weight: 500;}
+.you_a:hover {color: #ffff7a; justify-content: space-between;}
+
+
+
+/* 코스소개 */
+.c-1 {display: flex;}
+.c-2 {width:calc(100%-600px)}
+.course_party {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.c-1 > ul > .golf_CO > h2 {}
+
+.c_tit {
+  text-align: left;
+}
+
+.c_tool {position: relative;}
+
+.c-po {
+  position: absolute;
+top: 0;
+left: 0;
+z-index: 0;
+height: 100%;
+width: 100%;
+background-size: cover;
+background-position: center center;
+}
+
+/* 자바스크립트 위한 클래스 */
+.on {display: flex;}
